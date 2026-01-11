@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About — CoolCreditEngine</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">CoolCreditEngine</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="product.html">Product</a>
+      <a href="compliance.html">Compliance</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="tag">About</div>
+      <h1>Building infrastructure for emissions data that holds up.</h1>
+      <p>
+        CoolCreditEngine was created to bridge a gap: organizations are being asked to produce increasingly
+        precise emissions data, but the underlying systems often look nothing like the ones used for financial data.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Perspective</h2>
+      <p>
+        The project reflects experience in financial systems, compliance architectures, and emissions work.
+        The focus is on making emissions data usable, explainable, and durable enough to support the decisions
+        that depend on it.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>What this is and isn’t</h2>
+      <ul>
+        <li>It is an engine for structuring and governing emissions data.</li>
+        <li>It is not a marketing‑heavy ESG dashboard or offset marketplace.</li>
+        <li>It is designed to sit quietly behind the scenes and make other tools stronger.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Long‑term view</h2>
+      <p>
+        Over time, CoolCreditEngine aims to become a reference point for how to treat emissions data:
+        modular, inspectable, and capable of supporting assurance without being brittle.
+      </p>
+    </section>
+  </main>
+
+  <div class="footer">
+    © <span id="year"></span> CoolCreditEngine. All rights reserved.
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
