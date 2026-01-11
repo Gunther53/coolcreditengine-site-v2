@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Product — CoolCreditEngine</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">CoolCreditEngine</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="product.html">Product</a>
+      <a href="compliance.html">Compliance</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="tag">Product overview</div>
+      <h1>A modular platform for emissions accounting.</h1>
+      <p>
+        CoolCreditEngine is designed as a set of interoperable modules that can be combined to support
+        different regulatory environments, industries, and data maturities.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Core modules</h2>
+      <ul>
+        <li><strong>Signals layer:</strong> Ingests operational and supplier data from systems you already use.</li>
+        <li><strong>Rules layer:</strong> Applies deterministic emissions logic and factors chosen by your organization.</li>
+        <li><strong>Ledgered views:</strong> Produces structured outputs that can be versioned and audited over time.</li>
+        <li><strong>Registry interface (optional):</strong> Bridges to external registries and credit systems where relevant.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Designed for change</h2>
+      <p>
+        Regulations, factors, and reporting standards will continue to evolve. CoolCreditEngine is built to keep
+        those elements modular, so organizations can adapt without rebuilding their entire stack.
+      </p>
+      <ul>
+        <li>Configurable rules instead of hard‑wiring assumptions</li>
+        <li>Separation between raw data, logic, and outward‑facing reports</li>
+        <li>Clear boundaries between internal accounting and external instruments like credits</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Who this is for</h2>
+      <p>
+        The platform is aimed at organizations that need more than a dashboard: they need a backbone that can
+        underpin reporting, customer disclosures, and internal decision‑making.
+      </p>
+    </section>
+  </main>
+
+  <div class="footer">
+    © <span id="year"></span> CoolCreditEngine. All rights reserved.
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
